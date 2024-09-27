@@ -1,0 +1,92 @@
+.scaleupp{
+    background-color: dodgerblue;
+    padding: 30px;
+    margin: 10px;
+    width: 50px;
+    color: white;
+    animation-name: bodbood;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+ @keyframes bodbood{
+    0%{
+        scale: 1.04;
+    }
+    50%{
+        scale: 1.01;
+    }
+    100%{
+        scale: 1.04;
+    } 
+}
+.Rotation{
+    background-color: red;
+    padding: 30px;
+    margin: 10px;
+    width: 50px;
+  
+    transform: translateY(20px);
+    color: white;
+    animation-name: warwareeg;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+@keyframes warwareeg{
+
+    0%{
+    rotate: 190deg;
+    }
+    50%{
+        rotate: 45deg ;
+    }
+    100%{
+        rotate: 190deg;
+    }
+}
+
+.Transformation{
+    background-color: green;
+    padding: 30px;
+    margin: 10px;
+    width: 50px;
+     color: rgb(60, 4, 190); 
+    animation-name: Transformation;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+@keyframes transformation{
+
+    0%{
+      transform: translate(1100px);
+
+    }
+    50%{
+        transform: translate(10px);
+
+    }
+    100%{
+    transform: translate(1100px);
+    }
+}
+.changecolor{
+    font-size: 150px;
+    text-align: center;
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor{
+    0%{
+        color: orange;
+    }
+    25%{
+        color:cyan ;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: seagreen;
+    }
+}
